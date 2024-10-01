@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alunos</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .win{
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Lista de Alunos da Turma</caption>
+        <thead>
+            <tr>
+                <th scope="col" colspan="2">Nome</th>
+                <th scope="col">Nota</th>
+                <th scope="col">Média Final</th>
+                <th scope="col">Classificação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="win">
+                <td rowspan="2">Maria Silva</td>
+                <td>1º Nota</td>
+                <td>10</td>
+                <td rowspan="2">10</td>
+                <td rowspan="2">1ª</td>
+           
+            <tr class="win">
+                <td>2º Nota</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td colspan="2">João Pereira</td>
+                <td>8.0</td>
+                <td>8.0</td>
+                <td>2ª</td>
+            </tr>
+            <tr>
+                <td colspan="2">Ana Costa</td>
+                <td>7.5</td>
+                <td>7.5</td>
+                <td>3ª</td>
+            </tr>
+            <tr>
+                <td colspan="2">Lucas Almeida</td>
+                <td>6.0</td>
+                <td>6.0</td>
+                <td>4ª</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
